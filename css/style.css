@@ -3,6 +3,8 @@ body,h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width:700px){
+
 .page1{
     background-color: black;
     height: 100vh;
@@ -22,7 +24,7 @@ body,h2{
 
 header h2{
     margin: 0;
-    color: white;
+    color:rgb(253, 127, 38);
     flex: 3;
 
 }
@@ -43,6 +45,11 @@ nav a{
     color: white;
 }
 
+nav a:hover{
+    color: burlywood;
+    text-decoration: underline;
+}
+
 .tags{
     display: flex;
     flex-direction: column;
@@ -58,6 +65,7 @@ nav a{
 
 .tag1{
     font-size: 1.5rem;
+    color: rgb(174, 3, 248);
 }
 
 .tag2{
@@ -121,7 +129,18 @@ table tr,.page3 address{
 }
 
 .anna,.velachery,.tambaram{
-    margin-top: 1.5rem;
-    display: grid;
-    justify-content: center;
+    margin:2rem 2rem 0 ;
+}
+
+footer{
+    height: 100%;
+    background:rgb(19, 19, 19)
+}
+
+
+.faceb i{
+    color: white;
+    font-size: 2rem;
+    margin:2rem 3rem ;
+}
 }
