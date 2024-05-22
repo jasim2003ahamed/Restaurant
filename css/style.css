@@ -144,3 +144,105 @@ footer{
     margin:2rem 3rem ;
 }
 }
+
+
+
+@media screen and (min-width:699px){
+
+    .page1{
+        background-color: black;
+        height: 100vh;
+    }
+
+    .img {
+        background-image: url('../media/burger.jpg');
+        background-size: cover;
+        background-position: center;
+        width:25rem;
+        height: 24rem;
+        position: absolute;
+        left: 45rem;
+        top: 14rem;
+
+    }
+
+
+
+header h2{
+    margin: 0;
+    font-size: 3rem;
+    color:rgb(253, 127, 38);
+    flex: 3;
+
+}
+
+header{
+    display: flex;
+    padding: 2.5rem;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+}
+
+nav a{
+    flex: 1;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.tag1,.tag2,.tag3{
+    color: white;
+    margin: 1rem;
+}
+
+.tag1{
+    font-size: 3.5rem;
+    color: rgb(174, 3, 248);
+}
+
+.tag2{
+    font-size: 2.1rem;
+}
+
+button{
+    margin: 1rem;
+    width: 10rem;
+    border-radius: .3rem;
+    background-color: aquamarine;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.page2,.page3{
+    /* background: linear-gradient(to right,rgb(54, 51, 51),rgb(53,52,52)); */
+    background:rgb(19, 19, 19);
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+#location,#menu{
+    display: flex;
+    justify-content: center;
+    padding:1.8rem;
+    color: burlywood;
+}
+
+}
