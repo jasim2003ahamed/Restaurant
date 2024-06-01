@@ -93,6 +93,7 @@ button a{
     justify-content: center;
     padding:1.8rem;
     color: burlywood;
+    background:rgb(19, 19, 19);
 }
 
 table{
@@ -128,10 +129,13 @@ table tr,.page3 address{
     justify-self: right;
 }
 
-.anna,.velachery,.tambaram{
-    margin:2rem 2rem 0 ;
-}
+/* .page3{
+    margin:0 0rem 0rem;
+} */
 
+.velachery,.tambaram,.anna{
+    padding: 2rem;
+}
 footer{
     height: 100%;
     background:rgb(19, 19, 19)
@@ -152,6 +156,7 @@ footer{
     .page1{
         background-color: black;
         height: 100vh;
+        width: 100vw;
     }
 
     .img {
@@ -234,8 +239,9 @@ button a{
 .page2,.page3{
     /* background: linear-gradient(to right,rgb(54, 51, 51),rgb(53,52,52)); */
     background:rgb(19, 19, 19);
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
 }
 
 #location,#menu{
@@ -243,6 +249,56 @@ button a{
     justify-content: center;
     padding:1.8rem;
     color: burlywood;
+    background:rgb(19, 19, 19);
 }
 
+
+table{
+    padding: 1.4rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+table th,.page3 h2{
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+
+
+table tr,.page3 address{
+    font-size:1.2rem;
+    color: white;
+}
+
+.page2 tr{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content:center;
+}
+
+.page2 td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+
+}
+
+.page2 td:nth-child(2){
+    justify-self: right;
+}
+
+.anna,.velachery,.tambaram{
+    margin:2rem 2rem 0 ;
+}
+
+footer{
+    height: 100%;
+    background:rgb(19, 19, 19)
+}
+
+
+.faceb i{
+    color: white;
+    font-size: 2rem;
+    margin:2rem 3rem ;
+}
 }
